@@ -1,0 +1,75 @@
+.variable-width{
+    /* border: 5px solid red; */
+}
+.variable-width img{
+    height: 400px !important;
+    width: auto;
+}
+
+.slick-dots{
+    bottom: 0 !important;
+}
+
+.slick-prev, .slick-next{
+    height: 40px !important;
+    width: 40px !important;
+    z-index: 2 !important;
+}
+.slick-prev{
+    left: 10px !important;
+}
+.slick-next{
+    right: 10px !important;
+}
+.slick-prev::before, .slick-next::before{
+    font-size: 50px !important;
+}
+
+/* top  card section */
+.directory_pro_card{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+}
+.directory_pro_card .card_icon{
+    font-size: 30px;
+}
+.directory_pro_card p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* about section */
+.about{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.about-desc p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* review rating section */
+.review_rating_container{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.review_icon{
+    width: 15%;
+}
+.fa-star{
+    font-size: 14px !important;
+}
+.review_progress_bar{
+    width: 80%;
+    height: 10px !important;
+}
+.review_0{
+    width: 5%;
+    text-align: center;
+}

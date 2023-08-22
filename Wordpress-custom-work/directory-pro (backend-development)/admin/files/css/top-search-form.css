@@ -1,0 +1,148 @@
+#image-container img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+#main-wrapper{
+    position: relative !important;
+}
+
+.form-wrapper{
+    /* border: 5px solid green; */
+    /* height: 200px; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+
+.form-wrapper-fixed{
+    position: fixed;
+    top: 0;
+    background: #BDBDBD;
+    /* height: 100px; */
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    /* border: 3px solid red; */
+    z-index: 99999999;
+}
+.findimg{
+    height: 50px;
+    border: 1px solid red;
+    margin-top: -10px;
+}
+
+
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+  font-size: 20px;
+}
+
+/* align glyph */
+.left-addon .glyphicon{
+    left:  0px;
+    padding: 5px 5px;
+}
+.right-addon .glyphicon{
+    left: 0px;
+    padding: 5px 5px !important;
+}
+
+
+
+/* add padding  */
+.left-addon input{
+    padding-left:  30px !important;
+    margin: 0 !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+.right-addon input{
+    padding-left: 26px !important;
+    /* padding-top: 3px !important; */
+    margin: 0 !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+
+#speciality{
+    /* width: 100%; */
+    display: block !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+#speciality_chosen{
+    display: none !important;
+}
+/******************** auto complete  ************* */
+.ui-widget-content {
+	border: 1px solid #aaaaaa;
+	background: #fff !important;
+	color: #222222;
+    z-index: 2222222222;
+    height: 250px;
+    /* width: 80%; */
+    overflow: scroll;
+    font-size: 10px;
+}
+
+.ui-widget {
+	font-family: 'Quicksand', sans-serif !important;
+	font-size: 1.1em;
+}
+
+.ui-menu {
+	list-style: none;
+	padding: 2px;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.ui-autocomplete {
+	/* position: relative !important;
+	cursor: default; */
+    width: 300px;
+}
+
+.ui-menu .ui-menu-item {
+	margin: 0;
+	padding: 0;
+	zoom: 1;
+	float: left;
+	clear: left;
+	width: 100%;
+    font-size: 13px;
+}
+
+.ui-autocomplete-category{
+    font-size: 14px;
+    font-weight: 700;
+}
+.ui-widget {
+	font-family: 'Quicksand', sans-serif !important;
+	font-size: 1.1em;
+}
+
+
+/**************** make find it image smaller on mobile  ********************/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .findimg{
+      margin-top: 0;
+      margin-left: 50px;
+      height: 60px;
+  }
+
+}

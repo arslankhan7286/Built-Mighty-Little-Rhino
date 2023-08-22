@@ -1,0 +1,157 @@
+.AdmfrmLabel {
+
+	width:120px !important;
+
+	float:left;
+
+}
+
+.AdmfrmFld {
+
+	width:120px !important;
+	float:left;
+
+}
+
+
+
+#userphoto-status-pending {
+
+	background-color:yellow;
+
+	padding:3px;
+
+}
+
+#userphoto-upload-error,
+
+#userphoto-status-rejected {
+
+	color:red;
+
+}
+
+
+
+#userphoto .field-hint {
+
+	color:gray;
+
+	font-size:smaller
+
+}
+
+#userphoto_delete {
+
+	width:auto !important;
+
+}
+
+#userphoto-approvalstatus-controls.pending label {
+
+	background-color:yellow;
+
+	/*padding:3px;*/
+
+	padding:4px 0 4px 5px;
+
+}
+
+#userphoto-approvalstatus-controls select {
+
+	vertical-align:middle;
+
+}
+
+
+
+#userphoto_level_moderated option.none,
+
+#userphoto_admin_notified option.none {
+
+	font-style:italic;
+
+}
+
+
+
+#userphoto p.image {
+
+	border:solid 1px #CCC;
+
+	text-align:center;
+
+	padding:3px;
+
+	float:left;
+
+	margin-right:20px;
+
+	margin-bottom:0;
+
+	background-color:white;
+
+}
+
+#userphoto hr {
+
+	clear:both;
+
+	margin:0;
+
+	padding:0;
+
+	height:1px;
+
+	visibility:hidden;
+
+}
+
+
+
+#userphoto p.image img {
+
+	/*padding:2px;*/
+
+	border:solid 1px #CCC;
+
+}
+
+
+
+#userphoto_options_form input[type=number],
+
+#userphoto_options_form input[type=range]{
+
+	text-align:right;
+
+}
+
+#adminmenu .menu-icon-team-member div.wp-menu-image:before {
+  content: '\f307';
+}
+.post-type-team-member .ui-autocomplete {
+  font-family: inherit;
+  font-size: 1em;
+  background: #fafafa;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+}
+.post-type-team-member .ui-autocomplete li a {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  background: none;
+}
+.post-type-team-member .ui-autocomplete li a:hover {
+  border: 0;
+  background: #f6f6f6;
+}
+.post-type-team-member .ui-autocomplete li:last-child a {
+  -webkit-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}

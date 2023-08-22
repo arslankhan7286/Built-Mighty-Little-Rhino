@@ -1,0 +1,22 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.archieve-page , .cbp-filter-item, .cbp-l-dropdown-header, .cbp-l-dropdown-item, .cbp-l-grid-projects-title, .main-container, #catagories, #destination, .cities_title, #slider-search, .left-addon input, .right-addon input,.ui-widget, .cbp-l-filters-button .cbp-filter-item,.cbp-l-project-title, .filter-sec-tabs ul li a, .wrap-pro, .agent-info, .whole-container, h1,h2,h3,h4,h5,h6,p,textarea, .bootstrap-tagsinput, .cbp {
+    font-family: 'Quicksand',sans-serif !important;
+}
+.advance_search #inputState,.advance_search input[type="text"],.advance_search button[type="submit"], input[type="text"], .left-addon input, .right-addon input, .tt-input, .ui-widget, .cbp-l-grid-team-name, .cbp-l-caption-text, button[type="submit"], button[type="button"], button, textarea,input[type="text"], input[type="password"], input[type="datetime"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="submit"],  button, input, select, textarea{
+	font-family: 'Quicksand',sans-serif !important;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'Quicksand',sans-serif !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+ font-family: 'Quicksand',sans-serif !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+ font-family: 'Quicksand',sans-serif !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+ font-family: 'Quicksand',sans-serif !important;
+}

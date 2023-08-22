@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.mainfrm {
+	width:500px;
+	padding:20px;
+}
+.frmLabel {
+	width:150px;
+	float:left;
+}
+.frmField {
+	width:250px;
+	float:left;
+}
+.slt-box {
+	border: 1px solid #ccc;
+	padding: 6px 4px;
+	outline: none;
+	font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #777;
+	margin: 0;
+	margin-bottom: 20px;
+	background: #fff;
+	float:left;
+}
+.rgfrm td {
+	vertical-align:middle !important;
+	padding-bottom:5px;
+}
+.rgfrm input, .rgfrm select {
+	margin-bottom:0px !important;
+}
+.AdmfrmLabel {
+	width:150px !important;
+	float:left;
+	height:33px;
+}
+.AdmfrmFld {
+	float:left;
+	height:33px;
+}
+.AdmFrmList {
+	width:140px;
+}
+#PropertyMainDiv {
+	padding:5px;
+	float:left;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	padding: 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.3) 0 0 5px;
+	-moz-box-shadow: rgba(0,0,0,0.3) 0 0 5px;
+	box-shadow: rgba(0,0,0,0.3) 0 0 5px;
+	background: white;
+	zoom: 1;
+	margin-left: 50px;
+}
+#PropertyMainDiv h1 {
+	font-size: 26px;
+	color:#0096A0;
+	margin:0;
+}
+td h2{margin-bottom:0;}
+.SpacerDiv {
+	height:10px;
+	clear:both;
+}
+#ProDescription {
+	width: 600px;
+	border: 1px solid #ddd;
+	float: left;
+	margin: 0 0 10px 0;
+	padding: 5px;
+	line-height: 20px;
+}
+.heading {
+	padding: 10px;
+	/*height: 12px;*/
+	background-color: #F2EDDB;
+	font-weight: bold;
+}
+.ProSpecs {
+	font-size: 16px;
+	line-height: 20px;
+}
+.SpecLabel {
+	width:250px;
+	float:left;
+	line-height: 20px;
+}
+.SpecInfo {
+	width:300px;
+	float:left;
+	line-height: 20px;
+}
+.ProPhotos {
+	width:600px;
+}
+#frmInquiry {
+}
+#frmInquiry input {
+	background-color: #FFF;
+	width: 250px;
+	border: 1px solid #000;
+}
+#frmInquiry textarea {
+	background-color: #FFF;
+	width: 250px;
+	height:100px;
+	border: 1px solid #000;
+}
+#frmInquiry input[type="submit"] {
+	background-color: #FFF;
+	width: 100px;
+	border: 1px solid #000;
+	color:#000;
+}
+#divAgent {
+}
+#address {
+	font-size: 12px;
+	color: #666;
+}
+#PropertyQuickView {
+	border-top: 1px solid #ccc;
+}
+#PropertyQuickView:first-child {
+	border-top: none;
+}
+
+#PropertyQuickView .QVImage {
+	width:150px;
+	float:left;
+	padding: 10px 20px 10px 20px;
+}
+#PropertyQuickView .QVProInfo {
+	width:410px;
+	float:left;
+	padding:5px;
+	line-height: 20px;
+}
+.h2typelist {
+	margin:3px !important;
+}
+.admnotes {
+	font-size:12px;
+	color: #660;
+}
+.btn_search{
+	background: cadetblue;
+	border-radius: 5px;
+	border: 1px solid green;
+	color: white;
+	font-weight: bold;
+	padding: 4px 8px;
+	float: right;
+	cursor:pointer;	
+}
+.btn_search:hover{
+	background:#666;
+}
+
+#slider-range{
+	width:63%;
+	float:right;
+	margin-bottom:10px;	
+}

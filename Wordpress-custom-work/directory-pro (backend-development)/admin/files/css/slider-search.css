@@ -1,0 +1,102 @@
+.ui-autocomplete-loading {
+	background: white url("images/loader.gif") right center no-repeat;
+}
+
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+  font-size: 20px;
+}
+
+/* align glyph */
+.left-addon .glyphicon{
+    left:  0px;
+    padding: 5px 5px;
+}
+.right-addon .glyphicon{
+    left: 0px;
+    padding: 5px 5px !important;
+}
+
+
+
+/* add padding  */
+.left-addon input{
+    padding-left:  30px !important;
+    margin: 0 !important;
+    /* font-family: 'Quicksand', sans-serif !important; */
+}
+.right-addon input{
+    padding-left: 26px !important;
+    /* padding-top: 3px !important; */
+    margin: 0 !important;
+    /* font-family: 'Quicksand', sans-serif !important; */
+}
+#dirpro_sbtn{
+	background: gray !important;
+	color: #fff !important;
+}
+
+
+/******************** auto complete of listing 5  ************* */
+.ui-widget-content {
+	border: 1px solid #aaaaaa;
+	background: #fff !important;
+	color: #222222;
+    z-index: 2222222222;
+    height: 250px;
+    /* width: 80%; */
+    overflow: scroll;
+    font-size: 10px;
+}
+
+.ui-widget {
+	/* font-family: 'Quicksand', sans-serif !important; */
+	font-size: 1.1em;
+}
+
+.ui-menu {
+	list-style: none;
+	padding: 2px;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.ui-autocomplete {
+	position: relative !important;
+	cursor: default;
+}
+
+.ui-menu .ui-menu-item {
+	margin: 0;
+	padding: 0;
+	zoom: 1;
+	float: left;
+	clear: left;
+	width: 100%;
+    font-size: 13px;
+    font-family: inherit !important;
+}
+
+.ui-autocomplete-category{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: inherit !important;
+}
+
+
+#dirsearchtype{
+    background: #000 !important;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .ui-widget-content {
+        width: 80%;
+    }
+}
